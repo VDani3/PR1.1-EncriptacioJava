@@ -11,12 +11,12 @@
    <children>
       <Pane prefHeight="400.0" prefWidth="600.0">
          <children>
-            <Button fx:id="encript" layoutX="213.0" layoutY="272.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="175.0" text="Encriptar" AnchorPane.leftAnchor="213.0" AnchorPane.rightAnchor="212.0" AnchorPane.topAnchor="272.0" />
+            <Button fx:id="desencript" layoutX="213.0" layoutY="272.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="175.0" text="Desencriptar" AnchorPane.leftAnchor="213.0" AnchorPane.rightAnchor="212.0" AnchorPane.topAnchor="272.0" />
             <Label layoutX="211.0" layoutY="125.0" text="Arxiu:" />
             <TextField fx:id="arxiu" layoutX="262.0" layoutY="123.0" />
-            <Label layoutX="161.0" layoutY="160.0" text="Clau privada:" />
+            <Label layoutX="174.0" layoutY="160.0" text="Clau privada:" />
             <TextField fx:id="cprivada" layoutX="262.0" layoutY="158.0" />
-            <Label layoutX="160.0" layoutY="193.0" text="Contrasenya:" />
+            <Label layoutX="173.0" layoutY="193.0" text="Contrasenya:" />
             <TextField fx:id="contrasenya" layoutX="262.0" layoutY="191.0" />
             <Label layoutX="212.0" layoutY="226.0" text="Destí:" />
             <TextField fx:id="desti" layoutX="263.0" layoutY="224.0" />

@@ -7,6 +7,8 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
+    public static boolean result = false;
+
     public static void main(String[] args) {
         launch(args);
     }

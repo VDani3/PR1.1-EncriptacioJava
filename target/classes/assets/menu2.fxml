@@ -9,10 +9,10 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.Controller1">
    <children>
-      <Pane>
+      <Pane prefHeight="400.0" prefWidth="600.0">
          <children>
             <Button fx:id="encript" layoutX="213.0" layoutY="272.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="175.0" text="Encriptar" AnchorPane.leftAnchor="213.0" AnchorPane.rightAnchor="212.0" AnchorPane.topAnchor="272.0" />
-            <Label layoutX="164.0" layoutY="125.0" text="Clau pública:" />
+            <Label layoutX="175.0" layoutY="125.0" text="Clau pública:" />
             <TextField fx:id="claup" layoutX="262.0" layoutY="123.0" />
             <Label layoutX="216.0" layoutY="160.0" text="Axiu:" />
             <TextField fx:id="arxiu" layoutX="262.0" layoutY="158.0" />
